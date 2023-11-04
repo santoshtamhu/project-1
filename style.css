@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav-1 {
+  display: flex;
+  gap: 250px;
+  justify-content: center;
+  padding: 5px;
+  background-color: darkgreen;
+  color: white;
+}
+.nav-2 {
+  display: flex;
+  gap: 70px;
+  justify-content: center;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.nav-2 ul li a {
+  color: darkgreen;
+}
+
+.nav-2 ul li a:hover {
+  color: rgb(61, 152, 61);
+}
+
+.social-icons ul {
+  display: flex;
+}
+
+menu ul {
+  display: flex;
+  gap: 10px;
+}
+
+.contactus-button {
+  background-color: darkgreen;
+  color: white;
+  padding: 8px;
+  font-size: 12px;
+  border-radius: 5px;
+  border: 1px solid darkgreen;
+}
+
+.contactus-button:hover {
+  background-color: transparent;
+  color: darkgreen;
+  cursor: pointer;
+}
+
+.hero-section {
+  display: flexbox;
+  text-align: center;
+  margin-top: 10px;
+  /* background-image: url(/images/heroimage-background.jpg); */
+
+  padding: 50px;
+  color: white;
+}
+
+.hero-section {
+  background-color: rgba(0, 0, 0, 0.627);
+}
+.hero-number {
+  color: rgb(55, 167, 55);
+}
+
+.logo-section a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.text-logo {
+  color: black;
+  font-style: normal;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-transform: lowercase;
+}
+
+.courses {
+  display: flex;
+}
+.course {
+  border: solid black 2px;
+  margin: 10px;
+}
+
+.popular-courses {
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+hr {
+  margin-bottom: 20px;
+  border: 1px solid darkgreen;
+  border-right-width: -50%;
+  margin-left: 35%;
+  margin-right: 35%;
+}
